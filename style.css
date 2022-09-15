@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css?family=Rubik+One&subset=latin,cyrillic);
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.body{
+    background: rgb(21, 18, 37);
+}
+
+.name{
+    font-family: 'Rubik One', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;  
+    background: linear-gradient(45deg, #978f8f 33%, #c11111 66%, #8AA9D6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+    display: table;
+    margin: 5px auto;
+}
+.search{
+    font-family:'Roboto', sans-serif;
+    text-align: center;
+}
+.search .srch{
+   display: block;
+   margin: 5px auto;
+   width: 50%; 
+}
+
+.srch input{
+    font-size: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 10px 10px;
+    outline: none;
+    font-family: inherit;
+}
+.srch input:hover{
+    opacity: 0.8;
+    color: rgb(26, 22, 22);
+}
+.btn{
+    background: white;
+    padding: 15px 20px;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+
+.btn:hover{
+    opacity: 0.8;
+    color: rgb(26, 22, 22);
+}  
+
